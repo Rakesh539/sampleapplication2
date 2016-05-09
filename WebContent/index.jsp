@@ -12,7 +12,7 @@
 <tr>
 <td>
 <div align="center">
-<font color="blue">
+<font color="green">
 <font color="red"><jstlcore:out value="${msg}"/><br><br></font>
 Username &nbsp;: <input type="text" name="username"><br><br>
 Password &nbsp;: <input type="password" name="password"><br><br><br>
