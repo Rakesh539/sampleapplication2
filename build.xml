@@ -36,8 +36,7 @@
         <echo> Removed Previous Deployment inside Server!</echo>
     </target>
     <target name="compile" depends="clean" description="compile the source ">
-        <mkdir dir="./build/classes" />
-        <javac includeantruntime="false" srcdir="${src}" destdir="${classes}" classpathref="project-classpath" />
+        <javac includeantruntime="true" srcdir="${src}" destdir="${classes}" classpathref="project-classpath" />
         <echo> Java file compiled and copied to classes folder !</echo>
     </target>
     <target name="buildwar" description="Building War File" depends="compile">
