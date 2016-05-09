@@ -28,7 +28,7 @@ Password &nbsp;: <input type="password" name="password"><br><br><br>
 <font color="blue">
 <h3>NewVisitor:</h3>
 </font>
-<a href="VisitorRegistration.jsp"><font color="brown">Register</font></a><br>
+<a href="VisitorRegistration.jsp"><font color="lavender">Register</font></a><br>
 </center>
 
 </form>
