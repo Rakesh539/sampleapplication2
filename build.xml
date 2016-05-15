@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project name="buildwar" default="deploy" basedir=".">
-    <description> Compile, Package and Deploy AppajiMaamaa</description>
+    <description> Compile, Package and Deploy TestApp</description>
     <!-- set global properties for this build -->
     <property name="src" location="./src" />
     <property name="classes" location="./build/classes" />
