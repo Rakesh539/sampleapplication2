@@ -21,7 +21,7 @@
         </delete>
         <echo> Cleaned old war file in build folder !</echo>
     </target>
-
+    
     <target name="cleanDeploy">
         <delete>
             <fileset dir="${deployDest}">
@@ -48,6 +48,7 @@
             <classes dir="./build/classes" />
         </war>
     </target>
+    
     <target name="deploy" depends="buildwar,cleanDeploy">
         <copy file="./build/testapplication.war" todir="${deployDest}" overwrite="true">
         </copy>
