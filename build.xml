@@ -52,5 +52,4 @@
         <copy file="./build/testapplication.war" todir="${deployDest}" overwrite="true">
         </copy>
     </target>
-
 </project>
