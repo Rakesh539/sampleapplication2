@@ -4,11 +4,11 @@
     <!-- set global properties for this build -->
     <property name="src" location="./src" />
     <property name="classes" location="./build/classes" />
-    <property name="deployDest" location="D:\Softwares\apache-tomcat-7.0.69\webapps" />
+    <property name="deployDest" location="F:\Softwares\apache-tomcat-7.0.69\webapps" />
 
     <path id="project-classpath">
         <!-- Libraries inside server lib folder like, Servlet, JSP -->
-        <fileset dir="D:\Softwares\apache-tomcat-7.0.69\lib" includes="*.jar" />
+        <fileset dir="F:\Softwares\apache-tomcat-7.0.69\lib" includes="*.jar" />
     </path>
 
     <target name="clean">
