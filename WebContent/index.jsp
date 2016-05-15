@@ -32,8 +32,6 @@ Password &nbsp;: <input type="password" name="password"><br><br><br>
 </center>
 
 </form>
-
-
 <jstlcore:out value="${regsuccess}"/>
 <jstlcore:out value="${regnsuccess}"/>
 
